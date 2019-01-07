@@ -13,6 +13,9 @@
 		F9C5D4C021E31F0F00B2FF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C5D4BF21E31F0F00B2FF99 /* Assets.xcassets */; };
 		F9C5D4C321E31F0F00B2FF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C5D4C121E31F0F00B2FF99 /* LaunchScreen.storyboard */; };
 		F9C5D4CE21E31F0F00B2FF99 /* InstagramTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C5D4CD21E31F0F00B2FF99 /* InstagramTestTests.swift */; };
+		F9C5D4DA21E320C900B2FF99 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C5D4D921E320C900B2FF99 /* WebKit.framework */; };
+		F9C5D4DC21E3228600B2FF99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C5D4DB21E3228600B2FF99 /* Constants.swift */; };
+		F9C5D4E021E325D400B2FF99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C5D4DF21E325D400B2FF99 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		F9C5D4C921E31F0F00B2FF99 /* InstagramTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C5D4CD21E31F0F00B2FF99 /* InstagramTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTestTests.swift; sourceTree = "<group>"; };
 		F9C5D4CF21E31F0F00B2FF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C5D4D921E320C900B2FF99 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F9C5D4DB21E3228600B2FF99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9C5D4DF21E325D400B2FF99 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C5D4DA21E320C900B2FF99 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +69,7 @@
 				F9C5D4B721E31F0D00B2FF99 /* InstagramTest */,
 				F9C5D4CC21E31F0F00B2FF99 /* InstagramTestTests */,
 				F9C5D4B621E31F0D00B2FF99 /* Products */,
+				F9C5D4D821E320C900B2FF99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +91,8 @@
 				F9C5D4BF21E31F0F00B2FF99 /* Assets.xcassets */,
 				F9C5D4C121E31F0F00B2FF99 /* LaunchScreen.storyboard */,
 				F9C5D4C421E31F0F00B2FF99 /* Info.plist */,
+				F9C5D4DB21E3228600B2FF99 /* Constants.swift */,
+				F9C5D4DF21E325D400B2FF99 /* LoginViewController.swift */,
 			);
 			path = InstagramTest;
 			sourceTree = "<group>";
@@ -94,6 +104,14 @@
 				F9C5D4CF21E31F0F00B2FF99 /* Info.plist */,
 			);
 			path = InstagramTestTests;
+			sourceTree = "<group>";
+		};
+		F9C5D4D821E320C900B2FF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9C5D4D921E320C900B2FF99 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C5D4E021E325D400B2FF99 /* LoginViewController.swift in Sources */,
 				F9C5D4BB21E31F0D00B2FF99 /* ViewController.swift in Sources */,
 				F9C5D4B921E31F0D00B2FF99 /* AppDelegate.swift in Sources */,
+				F9C5D4DC21E3228600B2FF99 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

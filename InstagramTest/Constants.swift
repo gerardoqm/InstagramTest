@@ -16,5 +16,5 @@ struct INSTAGRAM_CONSTANTS
     static let CLIENTSECRET = "9e924fc442ce4f88a2f562d58bae89e9"
     static let REDIRECTURL = "http://instagramtest.gerardoqm.com"
     static let ACCESSTOKEN = "access_token"
-    static let SCOPE = "likes+comments+relationships"
+    static let SCOPE = "likes+comments+relationships" 
 }

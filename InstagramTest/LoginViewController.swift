@@ -10,7 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController, UIWebViewDelegate {
 
-    @IBOutlet weak var webView: WKWebView!
+    @IBOutlet weak var webView: WKWebView! 
 
     override func viewDidLoad() {
         super.viewDidLoad()
